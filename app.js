@@ -3,6 +3,7 @@
 var userName = prompt('What\'s your name?');
 alert('Welcome to my site, ' + userName + '!');
 
+
 var questionOne = prompt("Do you think I'm from the United States?").toLowerCase();
 
 if (questionOne === 'yes' || questionOne === 'y'){
