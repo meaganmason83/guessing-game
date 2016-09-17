@@ -75,3 +75,13 @@ if (questionSeven < 8) {
 } else {
   alert("Please enter a number.");
 }
+
+var questionEight = prompt("Which Seattle neighborhoods have I lived in?").toLowerCase();
+
+var myHood = ['University District', 'Wallingford', 'Phinney Ridge', 'West Seattle', 'Capitol Hill'];
+
+if (myHood.indexOf(questionEight) > -1) {
+  alert("Bingo!");
+} else if (myHood.indexOf(questionEight) != myHood) {
+	alert("Keep guessing.")
+}
