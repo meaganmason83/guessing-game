@@ -6,7 +6,11 @@ body {
 h1 {
   color: black;
   text-align: center;
-  border-style: groove;
+  border: 5px black groove;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 
 h2 {
