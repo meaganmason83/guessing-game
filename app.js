@@ -62,3 +62,17 @@ if (myArray.indexOf(questionSix) > -1) {
 } else {
   alert("You aren't a mind reader afterall.");
 }
+
+var questionSeven = parseInt(prompt("Now I'm thinking of a different number between 5-10. What is it?"))
+
+var myAnswer = 8;
+
+if (questionSeven < 8) {
+  alert("Too low.");
+} else if (questionSeven > 8) {
+  alert("Too high.");
+} else if (questionSeven === 8) {
+  alert("Correct!");
+} else {
+  alert("Please enter a number.");
+}
