@@ -6,7 +6,6 @@ var userNameFunction = function() {
 };
 userNameFunction();
 
-
 var meaganFunction = function() {
 
   var questionOne = prompt('Do you think I\'m from the United States?').toLowerCase();
