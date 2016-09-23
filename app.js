@@ -1,7 +1,10 @@
 'use strict';
 
-var userName = prompt('What\'s your name?');
-alert('Welcome to my site, ' + userName + '!');
+var userNameFunction = function() {
+  var userName = prompt('What\'s your name?');
+  alert('Welcome to my site, ' + userName + '!');
+};
+userNameFunction();
 
 
 var meaganFunction = function() {
